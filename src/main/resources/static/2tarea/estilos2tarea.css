@@ -1,0 +1,87 @@
+#encabezado{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8%; /*para centrarlo en tel y pag web*/
+    width: 100%;
+    text-align: center;
+    background-color: #005C53;
+    color: black;
+}
+#menu {
+    position: absolute;
+    top: 8%;
+    left: 0;
+    height: 4%; /*para centrarlo en tel y pag web*/
+    width: 100%;
+    background-color: #005C53;
+    color: white;
+}
+#encabezado h1{
+    display: inline
+}
+#menu a{
+    text-align: center;
+    background-color: #005C53;
+    color: black;
+}
+
+#menu a:hover { /*para cambiar el color cuando lo estripo*/
+    background-color: #DBF227;
+    color: white
+}
+
+#barralateral{
+    position: absolute;
+    top: 12%;
+    left: 0;
+    padding: 10px;
+    height: 81%; /*para centrarlo en tel y pag web*/
+    width: 20%;
+    background-color: #9FC131;
+
+}
+#contenido{
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    padding: 10px;
+    height: 81%; /*para centrarlo en tel y pag web*/
+    width: 80%;
+    background-color: #D6D58E;
+    overflow: auto;
+}
+
+#piedepagina{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4%; /*para centrarlo en tel y pag web*/
+    width: 100%;
+    background-color: #005C53;
+    text-align: center;
+}
+
+figcaption{
+    color: rgb(170,150,50);
+}
+
+article header{
+    background-color: #D6D58E;
+}
+#encabezadoTabla {
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+#tablaDetalle tr:nth-child(even){ /*par*/
+    background-color: white;
+    color: black;
+}
+
+#tablaDetalle tr:nth-child(odd){ /*inpar*/
+    background-color: white;
+    color: black
+}
+
